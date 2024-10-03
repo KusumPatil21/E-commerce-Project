@@ -1,0 +1,150 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: orange;
+    padding: 0rem 1rem;
+    position: sticky;
+    top: 0;
+}
+
+#left>h2{
+    color: black;
+    font-size: 1.5rem;
+}
+
+#cent>ul{
+
+    list-style-type: none;
+    display: flex;
+}
+#cent>ul>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 0rem 1rem;
+    display: block;/* coz a tag is a inline element so vartical padding will not applay so change it to block */
+}
+#cent>ul>li>a:hover{
+color:white;
+background-color:rgba(231, 158, 23, 0.528);
+}
+
+#right button
+{
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(195, 184, 165);
+    color:black;
+}
+#right button:active
+{
+background-color: rgb(246, 200, 115);
+color: black;
+
+}
+#right>span{
+
+    color: blue;
+}
+.design{
+    display: grid;   /* it will control multiple row  ... but flex will control only one row*/
+     grid-template-columns: repeat(3,25%);  /*provide the number of row and its width */ 
+     justify-content:space-between;
+    gap:2rem;
+    padding: 1rem;
+}
+.design>div{
+
+    background-color: beige;
+    height: 20rem;
+    border-radius: 5px;
+
+}
+.design>div>img{
+
+    width: 100%;
+    height: 10rem;
+    border-radius: 5px;
+}
+.design>div>h3{
+text-align: center;
+margin-top: 1rem;
+font-size: 1rem;
+}
+
+.design>div>h2{
+padding-left: 1rem;
+margin-top: 0.5rem;
+font-size: 1rem;
+}
+
+.design>div>button{
+
+    margin-top: 1rem;
+    width: 100%;
+    height: 2rem;
+    border: none;
+    background-color: rgb(21, 135, 135);
+    border-radius: 5px;
+    color: white;
+}
+.design>div>button:active{
+    background-color: skyblue;
+    color: black;
+
+}
+
+#search{
+
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+#search>input{
+
+    padding: 0.5rem;
+
+}
+#search>button{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border: none;
+    background-color: rgb(27, 27, 119);
+    border-radius: 5px;
+    color: white;
+    margin-left: 1rem;
+
+}
+
+#search>button:active{
+background-color: rgb(74, 74, 221);
+color: black;
+}
+#cart-cont{
+
+    position: relative;
+
+}
+.fa-cart-shopping
+{
+    width: 50%;
+}
+
+#count{
+
+    color: white;
+    font-size: 0.8rem;
+    position: absolute;
+    top: -60%;
+    right: 0%;
+}
+

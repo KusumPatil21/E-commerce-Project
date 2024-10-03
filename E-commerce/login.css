@@ -1,0 +1,92 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+main
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+form
+{
+    background-color: aqua;
+    width: 30%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+img, input, a, button
+{
+    display: block;
+}
+img
+{
+    height: 133px;
+    width: 325px;
+    margin: auto;
+}
+input
+{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(26, 115, 224);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border: none;
+}
+hr
+{
+    margin-top: 30px;
+}
+a
+{
+    text-align: center;
+    margin-top: 2px;
+    text-decoration: none;
+}
+h4
+{
+    position: absolute;
+    top: -93%;
+    left: 45%;
+    background-color: white;
+    padding: 0px 5px;
+}
+h3
+{
+    margin: 0;
+    padding: 0;
+    font-size: 0.3rem;
+    position: absolute;
+    top:30%;
+    left:0%;
+}
+#show /instead they have used pass/
+{
+    position: absolute;
+}
+span
+{
+    color: red;
+}
+.titile{
+
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
